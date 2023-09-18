@@ -1,0 +1,6 @@
+polars
+matplotlib
+pandas
+pytest
+pylint
+seaborn

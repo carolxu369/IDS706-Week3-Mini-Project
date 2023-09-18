@@ -1,0 +1,13 @@
+{
+    "name": "Python Development Environment",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": { 
+        "VARIANT": "3"
+      }
+    },
+    "settings": {
+      "pythonPath": "/usr/local/bin/python"
+    }
+  }
+  
