@@ -3,10 +3,9 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import polars as pl
-import pandas as pd
 
 FILE_PATH = 'grade.xlsx'
-df = pd.read_excel(FILE_PATH)
+df = pl.read_excel(FILE_PATH)
 
 mean = df['grade'].mean()
 median = df['grade'].median()
